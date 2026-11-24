@@ -1,0 +1,50 @@
+
+.flavor-section {
+  margin: 25px 0;
+}
+
+.flavor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.flavor-header h2 {
+  margin: 0;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.flavor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .flavor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .flavor-grid {
+    grid-template-columns: 1fr;
+  }
+}

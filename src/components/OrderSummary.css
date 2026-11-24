@@ -1,0 +1,35 @@
+
+.order-summary {
+  margin-top: 35px;
+  padding: 25px;
+  background-color: #f8dce5;
+  border-radius: 12px;
+  color: #573746;
+}
+
+.order-summary h2 {
+  margin-top: 0;
+}
+
+.order-summary p {
+  font-size: 17px;
+}
+
+.empty-order {
+  color: #777;
+  font-style: italic;
+}
+
+.clear-button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #573746;
+  color: white;
+  cursor: pointer;
+}
+
+.clear-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
